@@ -1,3 +1,4 @@
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
@@ -17,6 +18,8 @@ public class Script_SubjectLines {
 	@Test
 	public void ExecuteTestware() throws Exception {
 		System.out.println("Test RUN by Bamboo");
+		Assert.assertEquals(true, true);
+		
 		//TestWare execute = new TestWare(selenium, driver);
 		//execute.executeTestWare();
 	}
